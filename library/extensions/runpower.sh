@@ -19,7 +19,7 @@ function RUNPOWER() {
    
    
    [[ -z "$Pcommand" ]] && exit 1 # txt file containing the powershell script has to be given.
-		 encodecmd=$(iconv -t UTF-16LE $payloads/$Pcommand | base64)
+		 encodedcmd=$(iconv -t UTF-16LE $payloads/$Pcommand | base64)
 		 QUACK DELAY 1000 		
          QUACK GUI r
          QUACK DELAY 500
